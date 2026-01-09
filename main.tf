@@ -15,7 +15,7 @@ variable "region"{
   default = "ap-south-1"
 }
 variable "instance_type"{
-  default = "t3.micro"
+  default = "t2.micro"
 }
 
 data "aws_ami" "ubuntu" {
